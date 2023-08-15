@@ -2,6 +2,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario:   #F9F9F9;
     --cor-de-defundo:  #0030C;
+    --fonte-principal:´inter`;
     --botao-azul: #167BF7
 }
 body{
@@ -24,8 +25,13 @@ body{
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
 }
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+}
+.container_titulo{
+    font-size: 28px;
+    font-weight: 700;
 }
